@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+.initial ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.blue{
+    background-color: #2e60b6;
+    color: white;
+    border: 1px transparent;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 2px;
+    margin-right: 8px;
+    min-width: 96px;
+    border-radius: 4px;
+    height: 28px;
+    margin-top: 18px;
+}
+ul li{
+    padding: 13px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 3px;
+    margin-top: 7px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 175px;
+}
+.second img{
+    height: 92px;
+    width: auto;
+    padding: 9px;
+}
+.second button img {
+    height: 3vh;
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 500px 0px 7px;
+    font-weight: 500;
+    color: black;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid #d2d2d2;
+}
+.WHi{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+}
+.Wh{
+    padding: 10px;
+    align-content: center;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+.txt{
+    padding: 4px;
+    font-size: 12px;
+    gap: 3px;
+}
+.txt a{
+    margin-right: 5px;
+}
+.f2{
+    padding: 0px 16px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    color: #1f1f1f;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+}
+.f1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    cursor: pointer;
+    color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+}
+.fx2{
+    display: flex;
+    flex-direction: row;
+}
+.fx3{
+    display: flex;
+    flex-direction: row-reverse;
+}
