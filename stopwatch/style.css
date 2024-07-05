@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    flex-direction: column;
+}
+.watch{
+    background-color: rgb(55, 75, 68);
+    padding: 25px 50px;
+    border-radius: 15px;
+}
+.timer{
+    font-size: 70px;
+    font-weight: 700;
+}
+.button{
+    margin-top: 40px;
+}
+.btn{
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-inline: 10px;
+
+}
+.x1{
+background-color: #0b360b;
+}
+.x2{
+background-color: rgb(91 92 27);
+}
+.x3{
+    background-color: #5e1d1d;
+}
